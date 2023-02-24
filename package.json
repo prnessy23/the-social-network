@@ -1,0 +1,24 @@
+{
+  "name": "the-social-network",
+  "version": "1.0.0",
+  "description": "API for social network",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prnessy23/the-social-network.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prnessy23/the-social-network/issues"
+  },
+  "homepage": "https://github.com/prnessy23/the-social-network#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.10.0"
+  }
+}
