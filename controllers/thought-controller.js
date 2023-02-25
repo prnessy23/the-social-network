@@ -119,7 +119,7 @@ const thoughtController = {
         )
             .then(dbThoughtData => {
                 if (!dbThoughtData) {
-                    res.status(404).json({ 'message: No way!'});
+                    res.status(404).json({message: `Nope!`});
                     return;
                 }
                 res.json(dbThoughtData);
@@ -128,4 +128,5 @@ const thoughtController = {
     }
 
 };
+
 module.exports = thoughtController
