@@ -13,7 +13,7 @@ const thoughtController = {
             .then(dbThoughtData => res.json(dbThoughtData))
             .catch(err => {
                 console.log(err);
-                res.sendStatus(404);
+                res.sendStatus(400);
 
             });
     },
@@ -28,7 +28,7 @@ const thoughtController = {
             .sort({ _id: -1 })
             .then(dbThoughtData => {
                 if (!dbThoughtData) {
-                    res.status(400).json({ message: 'No thoughts found with this id!' });
+                    res.status(404).json({ message: 'No thoughts found with this id!' });
                     return;
                 }
                 res.json(dbThoughtData);

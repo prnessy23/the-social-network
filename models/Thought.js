@@ -11,7 +11,7 @@ const ReactionSchema = new Schema({
         required: true,
         maxlength: 280
     },
-    userName: {
+    username: {
     type: String,
     required: true,
 },

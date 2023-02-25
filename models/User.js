@@ -1,4 +1,4 @@
-const { Schema, model, SchemaTypeOptions } = require('mongoose');
+const { Schema, model, } = require('mongoose');
 const dayjs = require('dayjs');
 
 const UserSchema = new Schema({

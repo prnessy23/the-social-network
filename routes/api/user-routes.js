@@ -11,9 +11,9 @@ const {
 } = require('../../controllers/user-controller');
 // Post and Get set up /users
 router 
-.route ('/')
-.get (getAllUser)
-.post (createUser);
+.route('/')
+.get(getAllUser)
+.post(createUser);
 
 // Get, Post and Delete/users
 router 
