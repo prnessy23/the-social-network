@@ -14,7 +14,7 @@ router
 .route('/')
 .get(getAllUser)
 .post(createUser);
-
+console.log(route)
 // Get, Post and Delete/users
 router 
 .route('/:id')
